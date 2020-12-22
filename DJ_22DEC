@@ -1,0 +1,316 @@
+
+Github.com
+ 
+ 
+
+Gh-CLI
+
+Download gitbash
+
+Dhananjaya0000/Class22ndDEc
+
+Git clone <URL>
+Create a file and 
+Git branch
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec
+$ git clone https://github.com/Dhananjaya0000/Class22ndDEc.git
+Cloning into 'Class22ndDEc'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec
+$ ls -lrt
+total 0
+drwxr-xr-x 1 dhananjaya 197121 0 Dec 22 05:25 Class22ndDEc/
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec
+$ cd Class22ndDEc
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ ls -lrt
+total 1
+-rw-r--r-- 1 dhananjaya 197121 14 Dec 22 05:25 README.md
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ vi kuna
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ l -lrt
+bash: l: command not found
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ ls -lrt
+total 2
+-rw-r--r-- 1 dhananjaya 197121 14 Dec 22 05:25 README.md
+-rw-r--r-- 1 dhananjaya 197121 22 Dec 22 05:27 kuna
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ cat kuna
+first class in devops
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git branch
+* main
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$
+
+
+$ git checkout -b gitpractice
+Switched to a new branch 'gitpractice'
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (gitpractice)
+$ ls -lrt
+total 2
+-rw-r--r-- 1 dhananjaya 197121 14 Dec 22 05:25 README.md
+-rw-r--r-- 1 dhananjaya 197121 22 Dec 22 05:27 kuna
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (gitpractice)
+$
+
+
+ 
+
+
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec
+$ git clone https://github.com/Dhananjaya0000/Class22ndDEc.git
+Cloning into 'Class22ndDEc'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec
+$ ls -lrt
+total 0
+drwxr-xr-x 1 dhananjaya 197121 0 Dec 22 05:25 Class22ndDEc/
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec
+$ cd Class22ndDEc
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ ls -lrt
+total 1
+-rw-r--r-- 1 dhananjaya 197121 14 Dec 22 05:25 README.md
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ vi kuna
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ l -lrt
+bash: l: command not found
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ ls -lrt
+total 2
+-rw-r--r-- 1 dhananjaya 197121 14 Dec 22 05:25 README.md
+-rw-r--r-- 1 dhananjaya 197121 22 Dec 22 05:27 kuna
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ cat kuna
+first class in devops
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git branch
+* main
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git checkout -b gitpractice
+Switched to a new branch 'gitpractice'
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (gitpractice)
+$ ls -lrt
+total 2
+-rw-r--r-- 1 dhananjaya 197121 14 Dec 22 05:25 README.md
+-rw-r--r-- 1 dhananjaya 197121 22 Dec 22 05:27 kuna
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (gitpractice)
+$ git branch
+* gitpractice
+  main
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (gitpractice)
+$ git checkoutmain
+git: 'checkoutmain' is not a git command. See 'git --help'.
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (gitpractice)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ vi test2
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ ls -lrt
+total 3
+-rw-r--r-- 1 dhananjaya 197121 14 Dec 22 05:25 README.md
+-rw-r--r-- 1 dhananjaya 197121 22 Dec 22 05:27 kuna
+-rw-r--r-- 1 dhananjaya 197121  9 Dec 22 05:35 test2
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ pwd
+/c/Users/dhananjaya/Desktop/DJ/GITHUB_22nddec/Class22ndDEc
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        kuna
+        test2
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git add kuna
+warning: LF will be replaced by CRLF in kuna.
+The file will have its original line endings in your working directory
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ ls -lrt
+total 3
+-rw-r--r-- 1 dhananjaya 197121 14 Dec 22 05:25 README.md
+-rw-r--r-- 1 dhananjaya 197121 22 Dec 22 05:27 kuna
+-rw-r--r-- 1 dhananjaya 197121  9 Dec 22 05:35 test2
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   kuna
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test2
+
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git commit "THis is my first file commit"
+error: pathspec 'THis is my first file commit' did not match any file(s) known to git
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git commit -m "THis is my first file commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'dhananjaya@DESKTOP-OP9O4IA.(none)')
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   kuna
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test2
+
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git config --global user.email "dhananjaya.parida@gmail.com"
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git config --global user.name "Dhananjaya0000"
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ github commit -m "THis is my first class"
+bash: github: command not found
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ pwd
+/c/Users/dhananjaya/Desktop/DJ/GITHUB_22nddec/Class22ndDEc
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git commit -m "THis is my first file commit"
+[main fff6f47] THis is my first file commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 kuna
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ pwd
+/c/Users/dhananjaya/Desktop/DJ/GITHUB_22nddec/Class22ndDEc
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ ls -lrt
+total 3
+-rw-r--r-- 1 dhananjaya 197121 14 Dec 22 05:25 README.md
+-rw-r--r-- 1 dhananjaya 197121 22 Dec 22 05:27 kuna
+-rw-r--r-- 1 dhananjaya 197121  9 Dec 22 05:35 test2
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$ git status
+On branch main	
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test2
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$
+
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 349 bytes | 349.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Dhananjaya0000/Class22ndDEc.git
+   39653ce..fff6f47  main -> main
+
+dhananjaya@DESKTOP-OP9O4IA MINGW64 ~/Desktop/DJ/GITHUB_22nddec/Class22ndDEc (main)
+$
+
+Clear 
+Git branch
+Git checkout gitpractice
+Ls
+
+Git restore –stage <filename> <filename>
+Vi .gitignore
+Git add .
+Git commit -m  “<TICKET#>”
+Git status
+Git branch
+Git push origin <*branchname>
+
+Git checkout -b <2nd branch name> :-create new branch and switched into it.
+Git checkout main :-switched to main branch
+Git checkout <2nd branch name>:-switch to 2nd branch
+Touch <newfile1>:-created file
+Touch <newfile2>:-created file
+Git add .    :adding files  to staging area
+Git commit -m  “<msg” moved file from staging areas to commited area
+Git push origin <2nd branch name>puch branch to github repo
+Git pull origin <gitpractice means branch>
+
+
+
